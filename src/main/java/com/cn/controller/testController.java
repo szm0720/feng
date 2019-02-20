@@ -41,4 +41,9 @@ public class testController {
         map.put("hello", "欢迎进入HTML页面");
         return "/index";
     }
+
+    @RequestMapping("/home")
+    public String homeHtml(HashMap<String, Object> map) {
+        return "/home";
+    }
 }

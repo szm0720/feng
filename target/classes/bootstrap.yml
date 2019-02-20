@@ -1,0 +1,8 @@
+server:
+  port: 20010
+
+spring:
+  application:
+    name: feng
+  thymeleaf:
+    prefix: classpath:/templates/
