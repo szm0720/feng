@@ -39,11 +39,11 @@ public class testController {
     @RequestMapping("/hello")
     public String helloHtml(HashMap<String, Object> map) {
         map.put("hello", "欢迎进入HTML页面");
-        return "/index";
+        return "index";
     }
 
     @RequestMapping("/home")
     public String homeHtml(HashMap<String, Object> map) {
-        return "/home";
+        return "home";
     }
 }
